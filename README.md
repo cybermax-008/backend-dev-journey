@@ -2,6 +2,19 @@
 
 Welcome to my backend development learning journey! This repository documents my progress in learning backend development using Python, Flask, PostgreSQL, and AWS.
 
+## Setup
+
+1. Create and activate a new virtual environment inside backend-dev-journey directory ,
+```
+python -m venv backend-env
+source backend-env/bin/activate
+```
+
+2. Install iPython for an enhanced interactive Python experience:
+```
+pip install ipython
+```
+
 ## Learning Path
 
 1. [Python Fundamentals](./01-python-fundamentals/README.md)
