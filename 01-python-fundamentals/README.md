@@ -13,7 +13,7 @@ This section covers the basics of Python programming. We'll explore the followin
 1. [Create a simple calculator function that can perform basic arithmetic operations.](./calcy.py)
 2. [Implement a function that checks if a given word is a palindrome.](./palindrome.py)
 3. [Create a class representing a bank account with methods for deposit, withdrawal, and balance inquiry.](./bank_account.py)
-4. Write a program that reads a text file, counts the occurrence of each word, and writes the results to a new file.
+4. [Write a program that reads a text file, counts the occurrence of each word, and writes the results to a new file.](./count_word.py)
 
 ## Resources
 
