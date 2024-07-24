@@ -18,7 +18,7 @@ pip install ipython
 ## Learning Path
 
 1. [Python Fundamentals](./01-python-fundamentals/README.md)
-2. [Web Development Basics](./02-web-dev-basics/README.md)
+2. [Web Development Basics](./02-web-development-basics)
 3. [Introduction to Flask](./03-flask-intro/README.md)
 4. [PostgreSQL and SQLAlchemy](./04-postgresql-and-sqlalchemy/README.md)
 5. [Authentication and Security](./05-auth-and-security/README.md)

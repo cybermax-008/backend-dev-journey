@@ -1,90 +1,85 @@
-# Web Development Basics
+# Web Development Basics for Backend (1 week)
 
-## 1. Understanding HTTP and How the Web Works (2 days)
+## 1. HTTP Fundamentals (2 days)
 
 Topics:
-- HTTP protocol
+- HTTP protocol overview
 - Request-response cycle
 - HTTP methods (GET, POST, PUT, DELETE, etc.)
 - HTTP status codes
-
-Tasks:
-- Use tools like curl or Postman to make HTTP requests to various websites
-- Analyze HTTP headers and responses
+- Headers and their purposes
+- Tools: curl, Postman
 
 Resources:
 - [MDN HTTP Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 - [HTTP Made Really Easy](https://www.jmarshall.com/easy/http/)
+- [Postman Learning Center](https://learning.postman.com/docs/getting-started/introduction/)
 
-## 2. Introduction to HTML and CSS (3 days)
+Practice:
+- Use curl to make requests to various websites and APIs
+- Set up Postman and practice making different types of requests
+
+## 2. Basic HTML for Backend Developers (1 day)
 
 Topics:
-- HTML structure and common tags
-- CSS selectors and properties
-- Responsive design basics
-
-Tasks:
-- Create a simple personal webpage with HTML and CSS
-- Make the webpage responsive using media queries
+- HTML form structure
+- Data attributes
+- Sending data to a server (GET vs POST)
 
 Resources:
-- [MDN HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-- [MDN CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
-- [Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893) (Udacity Free Course)
+- [MDN HTML Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+- [HTML Data Attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 
-## 3. Client-Server Communication (2 days)
+Practice:
+- Create a simple HTML form
+- Analyze the structure of forms on popular websites
 
-Topics:
-- Client-side vs. Server-side
-- AJAX and XMLHttpRequest
-- Introduction to JSON
-
-Tasks:
-- Create a simple webpage that fetches and displays data from a public API using JavaScript
-- Parse and display JSON data on a webpage
-
-Resources:
-- [What is a Web API?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
-- [Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
-
-## 4. Introduction to APIs (2 days)
+## 3. Introduction to APIs and RESTful Principles (2 days)
 
 Topics:
+- What is an API?
 - RESTful API concepts
 - API endpoints and resources
+- CRUD operations in REST
 - API authentication basics
-
-Tasks:
-- Explore and use a public API (e.g., GitHub API, Weather API)
-- Document the endpoints and responses of a chosen API
 
 Resources:
 - [RESTful API Design](https://restfulapi.net/)
-- [Public APIs](https://github.com/public-apis/public-apis) (GitHub repository with a list of free APIs)
+- [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+- [JSON:API Specification](https://jsonapi.org/)
 
-## 5. Web Security Basics (1 day)
+Practice:
+- Explore public APIs (e.g., [GitHub API](https://docs.github.com/en/rest), [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction))
+- Design a simple API for a hypothetical application
+
+## 4. JSON and Data Serialization (1 day)
 
 Topics:
-- HTTPS and SSL/TLS
-- Common web vulnerabilities (XSS, CSRF)
-- Basic security best practices
-
-Tasks:
-- Set up a free SSL certificate for a website using Let's Encrypt
-- Identify potential security issues in a given piece of code
+- JSON structure and syntax
+- Serializing and deserializing JSON in Python
+- Working with JSON in API requests and responses
 
 Resources:
-- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
-- [Web Security Basics](https://developer.mozilla.org/en-US/docs/Web/Security)
+- [Python JSON Documentation](https://docs.python.org/3/library/json.html)
+- [Working with JSON data in Python](https://realpython.com/python-json/)
 
-## Final Project: Simple Web Application (2 days)
+Practice:
+- Convert Python objects to JSON and vice versa
+- Parse JSON responses from a public API
 
-Create a basic web application that combines the skills learned:
-- HTML/CSS for the frontend
-- JavaScript for client-side interactivity
-- Fetching data from a public API
-- Displaying and updating data without page reload
-- Implementing basic security measures
+## 5. Making HTTP Requests in Python (1 day)
 
-This project will serve as a foundation for our upcoming Flask development.
+Topics:
+- Introduction to the `requests` library
+- Making GET and POST requests
+- Handling responses and errors
+- Working with headers and parameters
+
+Resources:
+- [Requests: HTTP for Humans](https://docs.python-requests.org/en/latest/)
+- [Real Python: Python's Requests Library (Guide)](https://realpython.com/python-requests/)
+
+Practice:
+- Make requests to various APIs using the `requests` library
+- Create a simple script that fetches and processes data from a public API
 
