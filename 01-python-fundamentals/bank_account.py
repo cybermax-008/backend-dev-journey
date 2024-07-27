@@ -36,7 +36,7 @@ class BankAccount:
         return "\n".join(self.transactions)
 
     def balance_enquiry(self):
-        return f" Available balance {self.available_balance} and Actual balance {self._balance}"
+        return f" Available balance {self.available_balance} and Actual balance {self.balance}"
     
 
 customer_1 = BankAccount("Surya M", 1000)
