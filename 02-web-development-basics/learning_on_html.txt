@@ -1,0 +1,37 @@
+How does the method attribute of the form affect how data is sent to the server?
+
+Answer: The method attribute determines how the form data is sent to the server:
+
+GET: Data is appended to the URL as query parameters. It's visible in the browser's address bar and has limitations on data size.
+POST: Data is sent in the body of the HTTP request. It can handle larger amounts of data and is not visible in the URL, making it more suitable for sensitive information.
+
+
+Why are the name attributes important for backend processing?
+
+Answer: The name attributes are crucial because:
+
+They provide the keys for the key-value pairs of form data sent to the server.
+On the backend, you use these names to access the submitted data.
+For example, if you have <input name="username">, on the server you might access it as request.form['username'] in Flask.
+
+
+How might different input types (like select) impact how you handle the data on the backend?
+
+Answer: Different input types can affect backend processing in several ways:
+
+select: Provides predefined options, so you might validate that the received value is one of the expected options.
+checkbox: Might be present or absent in the submitted data, requiring specific checking.
+date or number: Might require type conversion and range validation.
+File inputs: Require special handling for file uploads.
+
+
+What security considerations should you keep in mind when processing form data on the backend?
+
+Answer: Key security considerations include:
+
+Input validation: Always validate and sanitize input to prevent injection attacks.
+CSRF protection: Implement measures to prevent Cross-Site Request Forgery.
+Sensitive data handling: Never store passwords in plain text; use secure hashing.
+Rate limiting: Prevent abuse through excessive form submissions.
+XSS prevention: Escape or sanitize data before displaying it back to users.
+Use HTTPS: Ensure data is encrypted in transit.

@@ -44,8 +44,7 @@ Topics:
 - API authentication basics
 
 Resources:
-- [RESTful API Design](https://restfulapi.net/)
-- [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+- [REST APIs: How They Work and What You Need to Know](https://blog.hubspot.com/website/what-is-rest-api)
 - [JSON:API Specification](https://jsonapi.org/)
 
 Practice:
